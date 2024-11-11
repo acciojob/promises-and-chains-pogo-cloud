@@ -8,7 +8,7 @@
             
             alert("Please enter valid details);
           }else{
-            console.log("form is submitted");
+            //console.log("form is submitted");
             const p=new Promise((resolve,reject)=>{
                  setTimeout(()=>{
                      if(age>18){

@@ -6,7 +6,7 @@
           let name=document.getElementById("name").value;
           if(!age||!name){
             
-            alert("Please fill the information");
+            alert("Please enter valid details);
           }else{
             console.log("form is submitted");
             const p=new Promise((resolve,reject)=>{
